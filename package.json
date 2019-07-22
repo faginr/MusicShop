@@ -1,0 +1,26 @@
+{
+  "name": "musicshop",
+  "version": "1.0.0",
+  "description": "Online Music Store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faginr/MusicShop.git"
+  },
+  "author": "Rex Fagin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faginr/MusicShop/issues"
+  },
+  "homepage": "https://github.com/faginr/MusicShop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "stripe": "^7.4.0"
+  }
+}
